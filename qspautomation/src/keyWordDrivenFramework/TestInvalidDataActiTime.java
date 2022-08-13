@@ -14,13 +14,13 @@ public class TestInvalidDataActiTime  extends BaseTest{
 
 		//start reading invalid data
 		Flib flib = new Flib();
-		int rc = flib.getRowCount("./data/TestDataAct.xlsx","invalidcreds");
+		int rc = flib.getRowCount(EXCEL_PATH,"invalidcreds");
 
 		for(int i=1;i<=rc;i++)
 		{
-			String username = flib.readExcelData("./data/TestDataAct.xlsx","invalidcreds",i,0);
+			String username = flib.readExcelData(EXCEL_PATH,"invalidcreds",i,0);
 
-			String password = flib.readExcelData("./data/TestDataAct.xlsx","invalidcreds",i,1);
+			String password = flib.readExcelData(EXCEL_PATH,"invalidcreds",i,1);
 
 			System.out.println(i);
 			driver.findElement(By.name("username")).sendKeys(username);
