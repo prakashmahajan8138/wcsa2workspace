@@ -15,6 +15,7 @@ public class TestActiTimeLogout  extends BaseTest{
 		Thread.sleep(3000);
 		HomePage hp = new HomePage(driver);
 		hp.logoutActitime();
+		bt.closeBrowser();
 		
 	}
 }

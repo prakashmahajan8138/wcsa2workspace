@@ -12,7 +12,7 @@ public class TestActiTimeValidLogin extends BaseTest {
 		Flib flib = new Flib();
 		
 		lp.validLoginActiTime(flib.readPropertFile(PROP_PATH, "username"), flib.readPropertFile(PROP_PATH, "password"));
-		
+		bt.closeBrowser();
 	}
 
 }
