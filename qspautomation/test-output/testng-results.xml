@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Login ActiTime]]>
+      <![CDATA[method2 14]]>
     </line>
     <line>
-      <![CDATA[Create User ]]>
-    </line>
-    <line>
-      <![CDATA[logout Actitime ]]>
+      <![CDATA[method1 13]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="132" started-at="2022-08-19T16:03:35 IST" finished-at="2022-08-19T16:03:36 IST">
+  <suite name="Suite" duration-ms="87" started-at="2022-08-23T15:55:37 IST" finished-at="2022-08-23T15:55:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="132" started-at="2022-08-19T16:03:35 IST" finished-at="2022-08-19T16:03:36 IST">
-      <class name="testngpack.ActiTimeTest">
-        <test-method status="PASS" signature="loginActiTime()[pri:1, instance:testngpack.ActiTimeTest@1786dec2]" name="loginActiTime" duration-ms="26" started-at="2022-08-19T16:03:36 IST" finished-at="2022-08-19T16:03:36 IST">
+    <test name="Test" duration-ms="87" started-at="2022-08-23T15:55:37 IST" finished-at="2022-08-23T15:55:37 IST">
+      <class name="testngpack.TestMethod1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:testngpack.TestMethod1@1786dec2]" name="method1" duration-ms="18" started-at="2022-08-23T15:55:37 IST" finished-at="2022-08-23T15:55:37 IST">
           <reporter-output>
             <line>
-              <![CDATA[Login ActiTime]]>
+              <![CDATA[method1 13]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginActiTime -->
-        <test-method status="PASS" signature="createUserActiTime()[pri:2, instance:testngpack.ActiTimeTest@1786dec2]" name="createUserActiTime" duration-ms="2" started-at="2022-08-19T16:03:36 IST" finished-at="2022-08-19T16:03:36 IST">
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:testngpack.TestMethod1@1786dec2]" name="method2" duration-ms="18" started-at="2022-08-23T15:55:37 IST" finished-at="2022-08-23T15:55:37 IST">
           <reporter-output>
             <line>
-              <![CDATA[Create User ]]>
+              <![CDATA[method2 14]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createUserActiTime -->
-        <test-method status="PASS" signature="logoutActiTime()[pri:3, instance:testngpack.ActiTimeTest@1786dec2]" name="logoutActiTime" duration-ms="2" started-at="2022-08-19T16:03:36 IST" finished-at="2022-08-19T16:03:36 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[logout Actitime ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logoutActiTime -->
-      </class> <!-- testngpack.ActiTimeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method2 -->
+      </class> <!-- testngpack.TestMethod1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

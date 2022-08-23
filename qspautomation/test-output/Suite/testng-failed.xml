@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testngpack.Remo">
+      <class name="testngpack.ActiTimeLogin">
         <methods>
-          <include name="method2"/>
+          <include name="actitimeLogin"/>
         </methods>
-      </class> <!-- testngpack.Remo -->
+      </class> <!-- testngpack.ActiTimeLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
