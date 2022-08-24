@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngpack.TestActiTime2">
+      <class name="testngpack.ActiTimeAssertion">
         <methods>
-          <include name="logoutOut"/>
-          <include name="launchBrowser1"/>
-          <include name="clickOnReport"/>
-          <include name="loginToTheActiTime"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ActitimeTest"/>
         </methods>
-      </class> <!-- testngpack.TestActiTime2 -->
+      </class> <!-- testngpack.ActiTimeAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
