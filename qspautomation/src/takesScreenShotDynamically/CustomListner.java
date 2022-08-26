@@ -3,6 +3,7 @@ package takesScreenShotDynamically;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
 public class CustomListner  extends BaseTest implements ITestListener{
 
@@ -17,8 +18,11 @@ public class CustomListner  extends BaseTest implements ITestListener{
 	}
 
 	@Override
-	public void onTestFailure(ITestResult result) {
-		failed();
+	public void onTestFailure(ITestResult result)
+	{
+		String nameOffailedmethod = result.getMethod().getMethodName();
+		failed(nameOffailedmethod);
+		Reporter.log("screenshot is taken with "+nameOffailedmethod+" ",true);
 	}
 
 	@Override
